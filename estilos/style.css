@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'LEMONMILK';
+    src: url('../fontes/LEMONMILK-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Hubby';
+    src: url('../fontes/HUBBY\ BUNNY.otf')format('opentype');
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 248, 239);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+
+
+main p {
+    font-family: 'Hubby', sans-serif;
+    font-weight: lighter;
+    font-size: 4em;
+    line-height: 2em;
+    padding: 20px;
+    
+}
+
+.p1 {
+    background-color: rgba(0, 0, 0, 0.473);
+   display: inline-block;
+}
+
+.p2 {
+    background-color: rgba(0, 0, 0, 0.473);
+    display: inline-block;
+}
+
+header {
+    background-color: rgb(230, 132, 62);
+    padding: 40px;
+    margin: -10px -10px 0px -10px;
+    color: white;
+    text-align: center;
+  
+}
+
+header > h1 {
+    font-family: 'LEMONMILK';
+    padding-bottom: 20px;
+    font-size: 5em;
+    
+}
+
+header > p {
+   
+    font-size: 3vw;
+    min-width: 3vh;
+   
+   
+    
+}
+
+#art01 {
+    background-color: white;
+    padding: 20px;
+    margin: 0px -10px;
+  
+}
+
+#art02 {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-image: url('../imagens/pexels-uğurcan-özmen-8090819.jpg');
+    padding: 20px;
+    color: white;
+    
+}
+
+#art03 {
+background-color: white;
+padding: 20px;
+}
+
+#art04 {
+padding: 20px;
+background-repeat:no-repeat;
+background-image: url('../imagens/pexels-mart-production-7333505.jpg');
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+color: white;
+
+}
+
+#art05 {
+background-color: white;
+padding: 20px;
+}
+
+footer {
+    background-color: chocolate;
+    padding: 10px;
+    text-align:center;
+   
+}
